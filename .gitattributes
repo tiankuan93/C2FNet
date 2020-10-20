@@ -1,0 +1,4 @@
+*.h5 filter=lfs diff=lfs merge=lfs -text
+checkpoints/linknet_encoder_weights.h5 filter=lfs diff=lfs merge=lfs -text
+checkpoints/monuseg_ln/train_val_model/LinkNet.nuclei.train_val.512_loss_0.01_0.01_0.01_0.01_1.0_train_val_r3_resume_point_edge_fake_sobel.last.h5 filter=lfs diff=lfs merge=lfs -text
+checkpoints/monuseg_ln/train_val_model/LinkNet.nuclei.train_val.512_loss_1.0_0.0_0.0_0.0_0.0_r0_full_mask.last.h5 filter=lfs diff=lfs merge=lfs -text
